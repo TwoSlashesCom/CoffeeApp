@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\cappuchino.png" />
+    <None Remove="Images\coffee-cup.png" />
+    <None Remove="Images\espresso.png" />
+    <None Remove="Images\latte.png" />
+    <None Remove="Images\mocho.png" />
+    <None Remove="Images\raf.png" />
+    <None Remove="Images\sugar.png" />
+    <None Remove="Images\syrup.png" />
+    <None Remove="Images\фон.png" />
+    <None Remove="Images\фон2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.117" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\cappuchino.png" />
+    <Resource Include="Images\coffee-cup.png" />
+    <Resource Include="Images\espresso.png" />
+    <Resource Include="Images\latte.png" />
+    <Resource Include="Images\mocho.png" />
+    <Resource Include="Images\raf.png" />
+    <Resource Include="Images\sugar.png" />
+    <Resource Include="Images\syrup.png" />
+    <Resource Include="Images\фон.png" />
+    <Resource Include="Images\фон2.png" />
+  </ItemGroup>
+
+</Project>

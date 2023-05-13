@@ -1,0 +1,22 @@
+﻿<Window x:Class="CoffeeApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="350" ResizeMode="NoResize">
+    <Grid>
+        <Frame Name="MainFrame" ></Frame>
+    </Grid>
+
+    <Window.Background>
+        <LinearGradientBrush
+            StartPoint="0.5,0"
+            EndPoint="0.5,1">
+            <GradientStop Color="#f9c388" Offset="0"/>
+            <GradientStop Color="#e3ab97" Offset="0.5"/>
+            <GradientStop Color="#ba9b9c" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+</Window>
